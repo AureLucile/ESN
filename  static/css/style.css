@@ -1,5 +1,45 @@
-.nav li.active a{
+/* Pour toute la page */
 
-  background: black;
-
+.row {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1em;
 }
+
+
+h1 {
+  font-family: noteworthy;
+  color : black;
+  margin-top: 0.5em;
+}
+
+/* Page d'accueil : menu de navigation */
+
+.row {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1em;
+}
+
+.nav {
+  float: right;
+  font-family: noteworthy;
+}
+
+.nav li.active a{
+  background: rgb(25,25,55);
+  font-weight: bold;
+}
+
+.nav li a{
+  color: rgb(25,25,55);
+}
+
+/* Page d'accueil : photo d'accueil */
+
+.row div.col-xs-12 img.img-responsive {
+  width: 100%;
+  height: 35em;
+}
+
+/* page d'accueil : les différents pôles */
