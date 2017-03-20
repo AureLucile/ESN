@@ -1,16 +1,18 @@
 /* Pour toute la page */
 
-.row {
-  margin-left: 1em;
-  margin-right: 1em;
-  margin-top: 1em;
-}
 
+.container-fluid {
+
+}
 
 h1 {
   font-family: noteworthy;
   color : black;
-  margin-top: 0.5em;
+  padding-top: 0.25em;
+}
+
+p {
+  text-align: justify;
 }
 
 /* Page d'accueil : menu de navigation */
@@ -40,6 +42,19 @@ h1 {
 .row div.col-xs-12 img.img-responsive {
   width: 100%;
   height: 35em;
+  margin-top: 0.3em;
 }
 
 /* page d'accueil : les différents pôles */
+
+.presentation-poles div.col-md-3 img.img-responsive{
+  padding-top : 2em;
+  margin: auto;
+  width : 80%;
+}
+
+p.poles {
+  padding-right: 2em;
+  padding-left: 2em;
+  padding-top:  1em;
+}
