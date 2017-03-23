@@ -2,6 +2,17 @@
 .sub-title{
   font-family: MV Boli;
   color : black;
+  position: relative;
+  bottom: 4em;
+  z-index: 2;
+}
+
+.splash{
+  position: relative;
+  bottom: 13.5em;
+  z-index: 1;
+  width:25em;
+  margin-left: -5em;
 }
 
 p {
@@ -14,11 +25,35 @@ p {
   margin-top: 1em;
 }
 
+.logo {
+  float: left;
+  width: 15em;
+  height: 15em;
+  z-index: 3;
+  position:relative;
+}
+
+figcaption{
+  text-align: center;
+}
+
+blockquote{
+  padding: 2.5em;
+}
+
+footer{
+  background-color: rgb(25,25,55);
+  height: 10em;
+  text-align: center;
+  color: white;
+}
+
 /* Page 2 : menu de navigation */
 
 .nav {
   float: right;
   font-family: noteworthy;
+  font-size: 1.5em;
 }
 
 .nav li.active a{
@@ -28,4 +63,76 @@ p {
 
 .nav li a{
   color: rgb(25,25,55);
+}
+
+/* Page 2 : section */
+#présentation{
+  background-color: rgb(242,242,242);
+  padding: 2em;
+  position: relative;
+  bottom: 13em;
+  z-index: 1;
+  margin-top:2em;
+}
+
+#team{
+  background-color: rgb(242,242,242);
+  padding: 2em;
+  z-index: 1;
+  height:95em;
+}
+
+#TextOfPrésentaton{
+  position: relative;
+  top:8em;
+}
+
+#localisation{
+  box-shadow: 1em 1em 1em black;
+}
+
+#PhotoOfPrésentation figcaption{
+  position:relative;
+  top:1em;
+}
+
+h4{
+  display: inline-block;
+}
+
+#QuoteOfPrésident{
+  position: relative;
+  bottom: 12.5em;
+  z-index: 3;
+  color: black;
+  background-color:rgb(255,0,85);
+  font-family: MV Boli;
+  font-size: 1.5em;
+}
+
+.img-circle{
+  border: 0.5em white solid;
+  width: 15em;
+  position: relative;
+  left:2em;
+  margin: 2em 1em;
+}
+
+#PhotoOfPrésident{
+  width: 20em;
+  height: 25em;
+  border: none;
+  position: relative;
+  bottom: 15em;
+  left:-5em;
+}
+
+#CVJohn{
+  position: relative;
+  top:-20em;
+}
+
+#member{
+  position: relative;
+  top:-18em;
 }
