@@ -1,0 +1,31 @@
+/*for the whole 5 pages*/
+.sub-title{
+  font-family: MV Boli;
+  color : black;
+}
+
+p {
+  text-align: justify;
+}
+
+.row {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1em;
+}
+
+/* Page 2 : menu de navigation */
+
+.nav {
+  float: right;
+  font-family: noteworthy;
+}
+
+.nav li.active a{
+  background: rgb(25,25,55);
+  font-weight: bold;
+}
+
+.nav li a{
+  color: rgb(25,25,55);
+}
