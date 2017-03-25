@@ -1,19 +1,22 @@
 /* Pour toute la page */
 
+@font-face {
+  font-family: "noteworthy";
+  src: url('fonts/Noteworthy-Light.ttf') format('truetype');
+}
+
 h1 {
-  font-family: noteworthy;
+  font-family: "noteworthy";
   color : black;
 }
 
 p {
   text-align: justify;
+  font-family: Georgia;
 }
 
-.row {
-  margin-top: 0em;
-}
 
-/* Page d'accueil : menu de navigation */
+/* Menu de navigation */
 
 .nav {
   float: right;

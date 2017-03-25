@@ -19,11 +19,8 @@ p {
   text-align: justify;
 }
 
-.row {
-  margin-left: 1em;
-  margin-right: 1em;
-  margin-top: 1em;
-}
+
+
 
 .logo {
   float: left;
@@ -32,6 +29,7 @@ p {
   z-index: 3;
   position:relative;
 }
+
 
 figcaption{
   text-align: center;
