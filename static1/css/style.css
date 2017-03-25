@@ -1,4 +1,4 @@
-/* Pour toute la page */
+/* Pour toutes les pages */
 
 @font-face {
   font-family: "noteworthy";
@@ -45,8 +45,13 @@ p {
   margin-left: 5%;
 }
 
+#image-principale{
+  padding-top : 1em;
+  margin: auto;
+  width : 80%;
+}
 
-/* Page d'accueil : photo d'accueil */
+/* page d'accueil : photo d'accueil */
 
 
 .row div.col-xs-12 img.img-responsive {
@@ -67,7 +72,7 @@ p {
 
 
 #titre2 {
-  padding-bottom: 0.7em;
+  padding-bottom: 1.5em;
   padding-top: 1em;
 }
 
@@ -76,12 +81,6 @@ p {
 
 .presentation-poles div.col-md-3 {
   height : 28em;
-}
-
-.presentation-poles div.col-md-3 img.img-responsive{
-  padding-top : 2em;
-  margin: auto;
-  width : 80%;
 }
 
 
@@ -106,10 +105,22 @@ p.poles {
   position:absolute;
   float: left top;
   z-index: 2;
-  height:35%;
-  width:35%;
+  height:30%;
 }
 
+/* Blog */
+
+#carre-jaune-blog {
+  background-color: rgb(246, 246,230);
+  height: 25em;
+  text-align: center;
+  margin-top: 1em;
+  position:relative;
+}
+
+#articles {
+  padding-top: 1em;
+}
 
 /* footer */
 footer{
