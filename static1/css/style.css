@@ -11,9 +11,7 @@ p {
 }
 
 .row {
-  margin-left: 1em;
-  margin-right: 1em;
-  margin-top: 1em;
+  margin-top: 0em;
 }
 
 /* Page d'accueil : menu de navigation */
@@ -21,7 +19,10 @@ p {
 .nav {
   float: right;
   font-family: noteworthy;
-  font-size: 1.5em;
+  font-size: 1.2em;
+  margin-top: 2.5em;
+  margin-right: 2em;
+  margin-left: 50%;
 }
 
 .nav li.active a{
@@ -33,21 +34,27 @@ p {
   color: rgb(25,25,55);
 }
 
+.logo {
+  float: left;
+  width: 10em;
+  height: 10em;
+  z-index: 2;
+  position:absolute;
+  margin-left: 5%;
+}
+
+
 /* Page d'accueil : photo d'accueil */
+
 
 .row div.col-xs-12 img.img-responsive {
   width: 100%;
-  height: 35em;
-  margin-top: 0.1em;
+  height: 35%;
+  margin-top: 1.5em;
+  z-index: 1;
+  position: relative;
 }
 
-/*.row div.col-xs-12 div.image-principale {
-  background-image: url(cafe-lunettes-journal.png);
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 35em;
-  margin-top: 0.1em;
-}*/
 
 /* page d'accueil : les différents pôles */
 
@@ -71,4 +78,12 @@ p.poles {
 
 .deuxieme-paragraphe p.poles {
   font-weight : bold;
+}
+
+/* footer */
+footer{
+  background-color: rgb(25,25,55);
+  height: 7em;
+  text-align: center;
+  color: white;
 }
