@@ -13,8 +13,13 @@ h1 {
 p {
   text-align: justify;
   font-family: Georgia;
+  color: black;
 }
 
+.row {
+  margin-left:0.1em;
+  margin-right: 0.1em;
+}
 
 /* Menu de navigation */
 
@@ -48,7 +53,7 @@ p {
 #image-principale{
   padding-top : 1em;
   margin: auto;
-  width : 80%;
+  width: 100%;
 }
 
 /* page d'accueil : photo d'accueil */
@@ -136,6 +141,45 @@ p.poles {
   font-size: 1.2em;
   text-align : center;
   padding-top: 1em;
+}
+
+#titre-article a{
+  color: black;
+}
+
+/* Page Article */
+
+#page-article-titre {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  background-color: rgb(246, 246,230);
+  height:8em;
+  padding: auto;
+}
+
+#article {
+  font-size: 1.2em;
+  margin-top: 1em;
+  background-color: rgb(242,242,242);
+  padding: 1.6em 1em 1em 1em;
+}
+
+#date {
+  font-style: italic;
+  float: left;
+  margin-top: 3em;
+}
+
+#source {
+  font-style: italic;
+  float: right;
+  margin-top: 3em;
+}
+
+#reactions {
+  margin-top: 1em;
+  text-decoration: underline;
 }
 
 /* footer */
