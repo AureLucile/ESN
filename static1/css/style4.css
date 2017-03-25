@@ -1,0 +1,87 @@
+/*for the whole page*/
+p {
+  text-align: justify;
+}
+
+header, section{
+  margin:0 1em 0 1em;
+}
+
+.row{
+  margin: 1em;
+}
+
+.logo {
+  float: left;
+  width: 15em;
+  height: 15em;
+  z-index: 3;
+  position:relative;
+}
+
+header{
+  margin-top: 3em;
+}
+
+footer{
+  background-color: rgb(25,25,55);
+  height: 10em;
+  text-align: center;
+  color: white;
+  vertical-align: middle;
+  line-height: 10em;
+  margin:0em -1em 0em -1em;
+}
+
+/* Page 4 : menu de navigation */
+
+.nav {
+  float: right;
+  font-family: noteworthy;
+  font-size: 1.2em;
+}
+
+.nav li.active a{
+  background: rgb(25,25,55);
+  font-weight: bold;
+}
+
+.nav li a{
+  color: rgb(25,25,55);
+}
+
+/* Page 2 : section */
+.col-md-offset-2{
+  position: relative;
+  top: 15em;
+}
+.col-md-7{
+  position: relative;
+}
+
+#join-us{
+  position: relative;
+  width: 60%;
+  transform: rotate(340deg);
+  z-index: 3;
+}
+
+#yep{
+  position: relative;
+  bottom: 20em;
+  z-index: 1;
+}
+
+#ligne{
+  margin-bottom: 10em;
+}
+
+form{
+  margin-left: 20em;
+  margin-right: 20em;
+  margin-bottom: 10em;
+}
+
+#partner{
+width: 65%;
+}

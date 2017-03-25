@@ -19,7 +19,9 @@ p {
   text-align: justify;
 }
 
-
+header, section{
+  margin:0 1em 0 1em;
+}
 
 
 .logo {
@@ -37,6 +39,10 @@ figcaption{
 
 blockquote{
   padding: 2.5em;
+}
+
+header{
+  margin-top: 3em;
 }
 
 footer{
@@ -72,6 +78,7 @@ footer{
   z-index: 1;
   margin-top:2em;
 }
+
 
 #team{
   background-color: rgb(242,242,242);
