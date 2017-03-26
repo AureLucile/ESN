@@ -105,11 +105,18 @@ p.poles {
   font-weight : bold;
 }
 
+#people-interview{
+  width: 70%;
+  height: 37%;
+  margin-left: 2em;
+}
+
 #pole {
   position: relative;
   z-index: 1;
   margin-top:30%;
-  height: 29em;
+  height: 30em;
+  padding: 1em;
 }
 
 #bulles-poles {
